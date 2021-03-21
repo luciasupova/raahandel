@@ -385,6 +385,7 @@ template {
 :root {
   --main-color: #f0eada;
   --secondary-color: rgb(82, 82, 247);
+  --tertiary-color: #2a2a2a;
 }
 
 html {
@@ -397,6 +398,7 @@ html {
 header {
   position: fixed;
   width: 100%;
+  background-color: transparent;
 }
 
 header ul {
@@ -447,7 +449,7 @@ header li a:hover {
 }
 
 .img-main {
-  background-image: url(img-raahandel.jpg);
+  background-image: url(images/img-raahandel.jpg);
   height: 100vh;
 }
 
@@ -480,6 +482,26 @@ header li a:hover {
 .p-main {
 text-align: center;
 font-size: 1.8em;
+}
+
+.h2-caption{
+  color: var(--tertiary-color);
+  text-align: center;
+  font-weight: bold;
+  font-size: 27px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.wavy-line {
+  width: 60px;
+  margin-left: 30em;
+}
+
+.wavy-line2 {
+  width: 60px;
+  float: right;
+  margin-right: 30em;
 }
 
 /* BREAKPOINT */
