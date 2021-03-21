@@ -378,7 +378,7 @@ template {
   display: none;
 }
 
-/* OUR CODE */
+/* --- OUR CODE --- */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
@@ -394,12 +394,11 @@ html {
   scroll-behavior: smooth;
 }
 
-/* change the opacity in photoshop  
+
 body {
   background-image: url("images/img-bg.png");
   background-repeat: repeat;
 }
-*/
 
 
 /* MENU */
@@ -436,7 +435,8 @@ header ul li a {
   display: none;
 }
 
-*:before, *:after {
+*:before,
+*:after {
   display: none;
 }
 
@@ -507,11 +507,12 @@ header li a:hover {
 }
 
 .p-main {
-text-align: center;
-font-size: 1.8em;
+  text-align: center;
+  font-size: 1.8em;
+  color: var(--tertiary-color);
 }
 
-.h2-caption{
+.h2-caption {
   color: var(--tertiary-color);
   text-align: center;
   font-weight: bold;
@@ -531,8 +532,9 @@ font-size: 1.8em;
   float: right;
   margin-right: 30em;
 }
+
 /*can delete */
-.box{
+.box {
   margin-top: 20px;
   height: 500px;
 }
@@ -548,6 +550,7 @@ font-size: 1.8em;
   margin-right: 25em;
   margin-top: -17em;
   position: relative;
+  color: var(--tertiary-color);
 }
 
 .img-beer {
@@ -555,6 +558,82 @@ font-size: 1.8em;
   margin-left: 30em;
   margin-top: -20em;
   position: relative;
+}
+
+/* FOOTER */
+footer {
+  background-image: url(images/img-footer.jpg);
+  height: auto;
+  width: 100%;
+  color: var(--main-color);
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.f-some {
+  margin-top: 5em;
+}
+
+.img-footer2 {
+  width: 100px;
+}
+
+.f-icons {
+  margin-top: 1em;
+  margin-left: 1.5em;
+}
+
+
+.icon-fb {
+  width: 15px;
+}
+
+.icon-insta{
+  width: 28px;
+}
+
+.f-pages {
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 5em;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+}
+
+.f-pages li a {
+  text-transform: uppercase;
+  color: var(--main-color);
+  line-height: 2;
+  font-weight: bold;
+}
+
+.f-pages li a:hover {
+  color: var(--secondary-color);
+}
+
+.f-contact {
+  margin-top: 5em;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+.p-contact {
+  line-height: 1.3;
+}
+
+.h4-contact {
+  text-transform: uppercase;
 }
 
 /* BREAKPOINT */
