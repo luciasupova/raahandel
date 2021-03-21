@@ -488,6 +488,16 @@ header li a:hover {
   margin-bottom: 4em;
 }
 
+.divider2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 4em;
+  margin-top: 4em;
+  margin-bottom: 4em;
+  position: relative;
+}
+
 .p-main {
 text-align: center;
 font-size: 1.8em;
@@ -500,6 +510,7 @@ font-size: 1.8em;
   font-size: 27px;
   padding-left: 50px;
   padding-right: 50px;
+  text-transform: uppercase;
 }
 
 .wavy-line {
@@ -512,10 +523,30 @@ font-size: 1.8em;
   float: right;
   margin-right: 30em;
 }
-
+/*can delete */
 .box{
   margin-top: 20px;
-  height: 1000px;
+  height: 500px;
+}
+
+.video {
+  display: block;
+  margin: auto;
+  margin-bottom: 5em;
+}
+
+.p-text {
+  float: right;
+  margin-right: 25em;
+  margin-top: -17em;
+  position: relative;
+}
+
+.img-beer {
+  float: left;
+  margin-left: 30em;
+  margin-top: -20em;
+  position: relative;
 }
 
 /* BREAKPOINT */
