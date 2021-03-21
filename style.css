@@ -394,6 +394,14 @@ html {
   scroll-behavior: smooth;
 }
 
+/* change the opacity in photoshop  
+body {
+  background-image: url("images/img-bg.png");
+  background-repeat: repeat;
+}
+*/
+
+
 /* MENU */
 header {
   position: fixed;
