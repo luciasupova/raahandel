@@ -637,7 +637,11 @@ a:active {
 }
 
 
-
+/*Restaurants*/
+.img-main2 {
+  background-image: url(images/img-restaurants.jpg);
+  height: 75vh;
+}
 
 
 /* LOG IN */
