@@ -636,6 +636,24 @@ a:active {
   text-transform: uppercase;
 }
 
+
+
+
+
+/* LOG IN */
+.div-class {
+  display: flex;
+margin: 0;
+padding: 0;
+}
+
+.img-login {
+width: 35%;
+}
+
+
+
+
 /* BREAKPOINT */
 /* PHONE */
 
