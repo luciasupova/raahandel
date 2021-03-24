@@ -386,6 +386,7 @@ template {
   --main-color: #f0eada;
   --secondary-color: #2D639A;
   --tertiary-color: #2a2a2a;
+  --fourth-color: rgb(245, 245, 245);
 }
 
 html {
@@ -746,7 +747,7 @@ a:active {
 
 .h3-caption {
   position: absolute;
-  color: rgb(238, 238, 238);
+  color: var(--fourth-color);
   margin-left: 2em;
   text-transform: uppercase;
   font-size: 1.5em;
@@ -783,7 +784,9 @@ a:active {
   position: absolute;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 5px 10px;
+  gap: 70px 50px;
+  margin-top: 10em;
+  margin-left: 5em;
   grid-template-areas:
     "product1 product2 product3"
     "product4 product5 product6";
@@ -795,6 +798,21 @@ a:active {
 .product5 { grid-area: product5; }
 .product6 { grid-area: product6; }
 
+.btn-secondary {
+  position: absolute;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 0.3em;
+  width: 200px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin-top: 21em;
+  color: var(--fourth-color);
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 8px;
+  margin-left: -16em;
+}
 
 
 
