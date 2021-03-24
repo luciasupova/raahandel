@@ -384,7 +384,7 @@ template {
 
 :root {
   --main-color: #f0eada;
-  --secondary-color: rgb(103, 103, 136);
+  --secondary-color: #2D639A;
   --tertiary-color: #2a2a2a;
 }
 
@@ -645,15 +645,42 @@ a:active {
 
 
 /* LOG IN */
-.div-class {
+.login {
   display: flex;
-margin: 0;
-padding: 0;
 }
 
-.img-login {
-width: 35%;
+.div-img {
+  padding-right: 0.3em;
 }
+
+.h1-caption-login {
+  position: absolute;
+  color: var(--main-color);
+  margin-top: 7.5em;
+  margin-left: 1em;
+  text-transform: uppercase;
+  font-size: 4em;
+}
+
+.btn-primary {
+  position: absolute;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 0.3em;
+  width: 300px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin-top: 20em;
+  margin-left: 8em;
+  color: var(--main-color);
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 8px;
+}
+
+
+
+
 
 
 
