@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="da">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-    content="This is an online market website for Raahandel. It is a company that takes care about the transport of goods betweens the producer and customer.">
+        content="This is an online market website for Raahandel. It is a company that takes care about the transport of goods betweens the producer and customer.">
     <meta name="keywords"
-    content="raahandel, råhandel, local shops, restaurants, delivery, supermarkets, online market">
+        content="raahandel, råhandel, local shops, restaurants, delivery, supermarkets, online market">
     <link rel="stylesheet" href="style.css">
     <title>Råhandel</title>
 </head>
@@ -15,67 +16,88 @@
 <body>
     <header class="header" id="header">
         <a class="logo" href="index.html">
-        <img src="images/img-logo2.png" alt="logo" class="img-logo">
+            <img src="images/img-logo2.png" alt="logo" class="img-logo">
         </a>
         <input class="menu-btn" type="checkbox" id="menu-btn">
         <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
         <ul class="menu" id="navbar">
             <li><a href="goods.html">Varer</a></li>
             <li><a href="producers.html">Producenten</a></li>
-            <li><a href=""><img src="images/icon-user.png" alt="" class="img-icon" onclick="window.location.href = 'account.html';"></a></li>
-            <li><a href=""><img src="images/icon-message.png" alt="" class="img-icon" onclick="window.location.href = 'message.html';"></a></li>
-            <li><a href=""><img src="images/icon-notification.png" alt="" class="img-icon" onclick="window.location.href = 'notification.html';"></a></li>
-            <li><a href="">0,00 DK<img src="images/img-cart.png" alt="" class="img-icon" onclick="window.location.href = 'cart.html';"></a></li>
+            <li><a href=""><img src="images/icon-user.png" alt="" class="img-icon"
+                        onclick="window.location.href = 'account.html';"></a></li>
+            <li><a href=""><img src="images/icon-notification.png" alt="" class="img-icon"
+                        onclick="window.location.href = 'notification.html';"></a></li>
+            <li><a href="">0,00 DK<img src="images/img-cart.png" alt="" class="img-icon"
+                        onclick="window.location.href = 'cart.html';"></a></li>
         </ul>
     </header>
 
-        <section class="notifications">
-            <h1 class="h1-caption2">Notifications</h1>
-            <hr class="hr1">
-            <div class="box1">
-                <h3 class="h3-caption">You need to order <span class="blue-text">Hey Yum!</span>
-                    <br> sour flower today!</h3>
-            </div>
-            <hr class="hr2">
-        </section>
+    <img src="images/icon-message2.png" alt="" class="chatbox">
 
-        <section class="notifications2">
-            <h1 class="h1-caption3">My Products</h1>
-            <div class="grid-container">
-                <div class="product1">
-                    <img src="images/img-product1.png" alt="">
-                    <button class="btn-secondary">Set Reminder</button>
-                </div>
-                <div class="product2">
-                    <img src="images/img-product2.png" alt="">
-                    <button class="btn-secondary">Set Reminder</button>
-                </div>
-                <div class="product3">
-                    <img src="images/img-product3.png" alt="">
-                    <button class="btn-secondary">Set Reminder</button>
-                </div>
-                <div class="product4">
-                    <img src="images/img-product4.png" alt="">
-                    <button class="btn-secondary">Set Reminder</button>
-                </div>
-                <div class="product5">
-                    <img src="images/img-product5.png" alt="">
-                    <button class="btn-secondary">Set Reminder</button>
-                </div>
-                <div class="product6">
-                    <img src="images/img-product6.png" alt="">
-                    <button class="btn-secondary">Set Reminder</button>
-                </div>
-              </div>
-        </section>
+
+    <div class="chat-popup" id="chatbox">
+        <form class="form-container">
+            <img src="images/img-logo2.png" alt="" srcset="" class="img-logo2">
+            <h2 class="h2-chat">Chat with us</h1>
+
+                <img src="images/img-chat.png" alt="" srcset="" class="img-chat">
+                <textarea placeholder="Type message.." name="msg" required></textarea>
+
+                <button type="submit" class="btn">Send</button>
+                <button type="button" class="btn-cancel">Close</button>
+        </form>
+    </div>
+
+    <section class="notifications">
+        <h1 class="h1-caption2">Notifications</h1>
+        <hr class="hr1">
+        <div class="box1">
+            <h3 class="h3-caption">You need to order <span class="blue-text">Hey Yum!</span>
+                <br> sour flower today!</h3>
+        </div>
+        <hr class="hr2">
+        <img src="images/img-calendar.png" alt="" class="calendar">
+    </section>
+
+    <section class="notifications2">
+        <h1 class="h1-caption3">My Products</h1>
+        <div class="grid-container">
+            <div class="product1">
+                <img src="images/img-product1.png" alt="">
+                <button class="btn-secondary">Set Reminder</button>
+            </div>
+            <div class="product2">
+                <img src="images/img-product2.png" alt="">
+                <button class="btn-secondary">Set Reminder</button>
+            </div>
+            <div class="product3">
+                <img src="images/img-product3.png" alt="">
+                <button class="btn-secondary">Set Reminder</button>
+            </div>
+            <div class="product4">
+                <img src="images/img-product4.png" alt="">
+                <button class="btn-secondary">Set Reminder</button>
+            </div>
+            <div class="product5">
+                <img src="images/img-product5.png" alt="">
+                <button class="btn-secondary">Set Reminder</button>
+            </div>
+            <div class="product6">
+                <img src="images/img-product6.png" alt="">
+                <button class="btn-secondary">Set Reminder</button>
+            </div>
+        </div>
+    </section>
 
 
     <footer>
         <div class="f-some">
             <img src="images/img-footer2.png" alt="" class="img-footer2">
             <div class="f-icons">
-                <a href="https://www.facebook.com/raahandel/"><img src="images/icon-fb.png" alt="fb logo" class="icon-fb"></a>
-                <a href="https://www.instagram.com/raahandel.dk/"><img src="images/icon-insta.png" alt="insta logo" class="icon-insta"></a>
+                <a href="https://www.facebook.com/raahandel/"><img src="images/icon-fb.png" alt="fb logo"
+                        class="icon-fb"></a>
+                <a href="https://www.instagram.com/raahandel.dk/"><img src="images/icon-insta.png" alt="insta logo"
+                        class="icon-insta"></a>
             </div>
         </div>
 
@@ -90,19 +112,20 @@
         <div class="f-contact">
             <h4 class="h4-contact">Kontakt os</h4>
             <p class="p-contact">Email: kontakt@raahandel.dk
-            <br>Tlf: 92 45 01 05
-            <br>Adr: Frederiksborgvej 59,
-            <br>via Bispevej
-            <br>2400 København NV
-            <br>CVR: 37405906</p>
+                <br>Tlf: 92 45 01 05
+                <br>Adr: Frederiksborgvej 59,
+                <br>via Bispevej
+                <br>2400 København NV
+                <br>CVR: 37405906</p>
         </div>
 
         <div class="f-divider"></div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-    crossorigin="anonymous"></script>
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="main.js"></script>
 </body>
+
 </html>
