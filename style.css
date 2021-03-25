@@ -434,11 +434,11 @@ header ul li a {
 
 
 /* change color of menu AFTER login*/
-.header ul li a{
+.header ul li a {
   color: var(--tertiary-color);
 }
 
-.img-icon{
+.img-icon {
   width: 33px;
   cursor: pointer;
   padding-left: 10px;
@@ -608,7 +608,7 @@ footer {
   width: 15px;
 }
 
-.icon-insta{
+.icon-insta {
   width: 28px;
 }
 
@@ -791,12 +791,30 @@ a:active {
     "product1 product2 product3"
     "product4 product5 product6";
 }
-.product1 { grid-area: product1; }
-.product2 { grid-area: product2; }
-.product3 { grid-area: product3; }
-.product4 { grid-area: product4; }
-.product5 { grid-area: product5; }
-.product6 { grid-area: product6; }
+
+.product1 {
+  grid-area: product1;
+}
+
+.product2 {
+  grid-area: product2;
+}
+
+.product3 {
+  grid-area: product3;
+}
+
+.product4 {
+  grid-area: product4;
+}
+
+.product5 {
+  grid-area: product5;
+}
+
+.product6 {
+  grid-area: product6;
+}
 
 .btn-secondary {
   position: absolute;
@@ -819,6 +837,7 @@ a:active {
   position: absolute;
   margin-left: 8em;
 }
+
 .chatbox {
   width: 60px;
   bottom: 0;
@@ -830,9 +849,10 @@ a:active {
   background-color: var(--secondary-color);
   border-radius: 40px;
   padding: 0.5em;
+  cursor: pointer;
 }
 
-/* Button used to open the chat form - fixed at the bottom of the page */
+
 .open-button {
   background-color: #555;
   color: white;
@@ -844,10 +864,9 @@ a:active {
   bottom: 23px;
   right: 28px;
   width: 280px;
-  
+
 }
 
-/* The popup chat - hidden by default */
 .form-popup {
   display: none;
   position: fixed;
@@ -857,7 +876,6 @@ a:active {
   z-index: 9;
 }
 
-/* Add styles to the form container */
 .form-container {
   max-width: 300px;
   padding: 10px;
@@ -871,7 +889,6 @@ a:active {
   border-style: solid;
 }
 
-/* Full-width textarea */
 .form-container textarea {
   width: 260px;
   padding: 15px;
@@ -882,20 +899,19 @@ a:active {
   min-height: 100px;
 }
 
-/* When the textarea gets focus, do something */
 .form-container textarea:focus {
   background-color: rgb(235, 235, 235);
   outline: none;
 }
 
 .form-container .btn {
-  background-color:var(--secondary-color);
+  background-color: var(--secondary-color);
   color: white;
   padding: 16px 20px;
   border: none;
   cursor: pointer;
   width: 100%;
-  margin-bottom:10px;
+  margin-bottom: 10px;
   text-transform: uppercase;
 }
 
@@ -906,7 +922,7 @@ a:active {
   border: none;
   cursor: pointer;
   width: 100%;
-  margin-bottom:10px;
+  margin-bottom: 10px;
   text-transform: uppercase;
 }
 
@@ -926,6 +942,82 @@ a:active {
   margin-top: 1em;
 }
 
+/* REMINDER */
+.div-reminder {
+  background-color: #C4C4C4;
+  width: 55%;
+  position: absolute;
+  z-index: 2;
+  display: table;
+margin-top: 15em;
+margin-left: 5em;
+}
+
+.img-reminder {
+  width: 450px;
+  float: left;
+  padding: 2em;
+  margin-left: 0em;
+}
+
+.img-reminder2 {
+  float: left;
+  margin-top: 2em;
+  margin-left: -0.5em;
+}
+
+.img-reminder3 {
+  margin-left: -0.5em;
+}
+
+.h1-x {
+float: right;
+top: 0;
+font-size: bold;
+margin-right: 25px;
+cursor: pointer;
+}
+
+.btn-reminder {
+  font-weight: bold;
+  font-size: 22px;
+  padding: 1em;
+  width: 350px;
+  margin: 0.5em;
+  margin-left: 0em;
+  background-color: var(--secondary-color);
+  border: none;
+  color: var(--fourth-color);
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 8px;
+}
+
+.h3-reminder {
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+.div-reminder2 {
+  background-color: #eeeeee;
+  width: 20%;
+  border-style: solid;
+  position: absolute;
+  z-index: 2;
+  display: table;
+margin-top: 20em;
+margin-left: 60em;
+padding-left: 2em;
+padding-bottom: 2em;
+}
+
+#reminder-2 {
+  margin-top: 30em;
+}
+
+#reminder-3 {
+  margin-top: 35em;
+}
 
 
 
